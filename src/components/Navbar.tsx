@@ -1,4 +1,4 @@
-import { Terminal } from "lucide-react";
+import { Terminal, FileUser } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -14,6 +14,10 @@ const Navbar = () => {
         <li><a  className="btn btn-sm btn-ghost" href="#Project">Mes Projets</a></li>
         <li><a  className="btn btn-sm btn-ghost" href="#Contact">Contact</a></li>
       </ul>
+      <div className="hidden md:block"><a href="cv/Kenneth.pdf" className="btn btn-accent md:w-fit" download>
+          <FileUser className="w-5 h-5" />
+          Mon CV
+        </a></div>
     </div>
   );
 };

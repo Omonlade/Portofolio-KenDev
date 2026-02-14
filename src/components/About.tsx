@@ -3,17 +3,17 @@ import img from "../assets/ken2.jpeg";
 import { Download, CalendarSync, Paintbrush } from "lucide-react";
 
 const about = [
-  {
-    id: 1,
-    title: "Mon CV",
-    description: "J'ai un CV à jour, je vous invite à le consulter",
-    icons: <Download className="text-accent scale-150" />,
-    // link : "https://kenneth-dev.github.io/cv/"
-  },
+  // {
+  //   id: 1,
+  //   title: "Mon CV",
+  //   description: "J'ai un CV à jour, je vous invite à le consulter",
+  //   icons: <Download className="text-accent scale-150" />,
+  //   // link : "https://kenneth-dev.github.io/cv/"
+  // },
   {
     id: 2,
     title: "Mes expériences",
-    description: "J'ai une expérience de 5 ans en développement web",
+    description: "J'ai une expérience de 2 ans en développement web",
     icons: <CalendarSync className="text-accent scale-150" />,
     // link : "https://kenneth-dev.github.io/cv/experiences/"
   },

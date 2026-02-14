@@ -42,7 +42,7 @@ const experiences = [
     company: "Citech Sarl",
     period: "juin 2023 - Aout 2023",
     description:
-      "Formation Professtionelle  et pratique en Developpement Web, Mobile et Graphisme.",
+      "Formation Professtionelle et pratique en Developpement Web, Mobile et Graphisme.",
     images: CitechSarl,
   },
   {
@@ -51,7 +51,7 @@ const experiences = [
     company: "Taka Teck Innov",
     period: "Mars 2024 - juin 2025",
     description:
-      "J'ai travaillé sur un projets web et mobile pour Taka Teck Innov, une entreprise de l'industrie de la technologie qui consistait à fournir des solutions pouvant permettre aux apprenants de s'initier à l'electronics et à la programmation.",
+      "Afin de concretiser mes connaissances en programmation, J'ai travaillé sur un projets web et mobile pour Taka Teck Innov, une entreprise de l'industrie de l'electronique qui consistait à fournir une solution pouvant permettre aux apprenants de s'initier à l'electronics et à la programmation.",
 
     images: TakaTechInnov,
   },
@@ -60,7 +60,7 @@ const experiences = [
     role: "Formation Professionnelle en Développeur web ",
     company: "E4afrika",
     period: " Fevrier 2024 -novembre 2024",
-    description: "Apprentisage des concepts clés de la développement web",
+    description: "Apprentisage des concepts clés de la développement web plus precisement back-end avec le framework symfony.",
     images: E4afrika,
   },
   {
@@ -76,7 +76,7 @@ const experiences = [
 const Experiences = () => {
   return (
     <div id="Experiences">
-      <Title title="Compétences & Expériences" />
+      <Title title="Formations & Expériences" />
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
           {skills.map((skill) => (
