@@ -7,6 +7,8 @@ import imageSymfony from "../assets/techno/symfony.png";
 import imageMySql from "../assets/techno/mysql.png";
 import imageReact from "../assets/techno/react.png";
 import imageGithub from "../assets/techno/github.png";
+import imageCanva from "../assets/techno/canva.jpeg";
+
 
 // import google from "../assets/google.png"
 // import amazon from "../assets/amazon.png"
@@ -15,15 +17,17 @@ import TakaTechInnov from "../assets/companies/TakaTechInnov.jpeg";
 import CitechSarl from "../assets/companies/CitechSarl.jpeg";
 import ESCAE from "../assets/companies/ESCAE.png";
 import E4afrika from "../assets/companies/e4afrika.jpeg";
+import LePremier from "../assets/companies/LePremier.jpeg";
 const skills = [
   { id: 1, name: "HTML", image: imageHtml },
   { id: 2, name: "CSS", image: imageCss },
   { id: 3, name: "PHP", image: imagePhp },
-  { id: 4, name: "GITHUB", image: imageGithub },
-  { id: 5, name: "JAVASCRIPT", image: imageJs },
-  { id: 6, name: "MySQL", image: imageMySql },
+  { id: 4, name: "JAVASCRIPT", image: imageJs },
+  { id: 5, name: "MySQL", image: imageMySql },
+  { id: 6, name: "GITHUB", image: imageGithub },
   { id: 7, name: "SYMFONY", image: imageSymfony },
   { id: 8, name: "REACT", image: imageReact },
+  {id:9, name:"CANVA" , image:imageCanva}
 ];
 
 const experiences = [
@@ -51,8 +55,7 @@ const experiences = [
     company: "Taka Teck Innov",
     period: "Mars 2024 - juin 2025",
     description:
-      "Afin de concretiser mes connaissances en programmation, J'ai travaillé sur un projets web et mobile pour Taka Teck Innov, une entreprise de l'industrie de l'electronique qui consistait à fournir une solution pouvant permettre aux apprenants de s'initier à l'electronics et à la programmation.",
-
+      "Afin de concretiser mes connaissances en programmation, J'ai travaillé sur un projets web et mobile pour Taka Teck Innov, une entreprise Spécialisée dans la formation en Electronique et Programmation. Le projet consistait à fournir une solution pouvant permettre aux apprenants de s'initier à l'electronics et à la programmation à travers des cours en ligne et des exercies.",
     images: TakaTechInnov,
   },
   {
@@ -60,7 +63,7 @@ const experiences = [
     role: "Formation Professionnelle en Développeur web ",
     company: "E4afrika",
     period: " Fevrier 2024 -novembre 2024",
-    description: "Apprentisage des concepts clés de la développement web plus precisement back-end avec le framework symfony.",
+    description: "Apprentisage des concepts clés du développement web (back-end) avec le framework symfony.",
     images: E4afrika,
   },
   {
@@ -68,9 +71,17 @@ const experiences = [
     role: "Développeur web ",
     company: "XoboEvents",
     period: " Fevrier 2025",
-    description: "Une application web de billeterie pour l'évènement Weloveya",
+    description: "Conception d'une application web de billeterie pour l'évènement Weloveya pour la gestion des tickets et packs. Cette application permettait aux utilisateurs de s'inscrire à l'évènement, de choisir leurs places et de payer leur billet en ligne.",
     images: XodoEvents_weloveya,
   },
+  {
+    id: 5,
+    role:"Développeur web",
+    company: "LePremier",
+    period: " Decembre 2025 - Fevrier 2026",
+    description: "Developpement d'une application web pour la plateforme LePremier, une plateforme de location de voitures, d'appartements, de billets et de tickets d'évènements en Afrique de l'Ouest Francophone. J'était chargé de la refonte de la plateforme web et de l'integration de nouvelle module comme la gestion des Évènement et la gestion des tickets d'évènements.",
+    images: LePremier,
+  }
 ];
 
 const Experiences = () => {

@@ -18,8 +18,13 @@ const Home = () => {
           Mon CV
         </a>
       </div>
-      <div className="md:ml-60">
-        <img src={img} alt="" className="w-96 h-96 object-cover border-8 border-accent shadow-xl" style={{ borderRadius: "50% 50% 30% 30% / 30% 50% 20% 40%" }} />
+      <div className="md:ml-8 lg:ml-16 xl:ml-24 flex justify-center md:justify-end">
+        <img
+          src={img}
+          alt="Kenneth - Développeur"
+          className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 max-w-full object-cover border-4 md:border-8 border-accent shadow-xl flex-shrink-0"
+          style={{ borderRadius: "50% 50% 30% 30% / 30% 50% 20% 40%" }}
+        />
       </div>
     </div>
   );
