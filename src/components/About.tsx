@@ -1,6 +1,6 @@
 import Title from "./Title";
 import img from "../assets/ken2.jpeg";
-import { Download, CalendarSync, Paintbrush,AlignEndHorizontal,TableProperties } from "lucide-react";
+import {AlignEndHorizontal,TableProperties } from "lucide-react";
 
 const about = [
   {

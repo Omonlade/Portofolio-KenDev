@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Title from "./Title";
-import { X, Expand } from "lucide-react";
+import { X, Expand, ChevronDown } from "lucide-react";
+
+const VISUELS_PAR_PAGE = 3;
 
 import flyers from "../assets/creation/flyers.jpeg";
 import flyersCoiffure from "../assets/creation/flyersCoiffure.jpeg";
@@ -28,6 +30,14 @@ const visuels: VisuelItem[] = [
 
 const Visuels = () => {
   const [selectedVisuel, setSelectedVisuel] = useState<VisuelItem | null>(null);
+  const [visibleCount, setVisibleCount] = useState(VISUELS_PAR_PAGE);
+
+  const visuelsToShow = visuels.slice(0, visibleCount);
+  const hasMore = visibleCount < visuels.length;
+  const canShowLess = visibleCount > VISUELS_PAR_PAGE;
+
+  const loadMore = () => setVisibleCount((prev) => Math.min(prev + VISUELS_PAR_PAGE, visuels.length));
+  const showLess = () => setVisibleCount(VISUELS_PAR_PAGE);
 
   return (
     <div className="mt-10" id="Visuels">
@@ -36,7 +46,7 @@ const Visuels = () => {
         Quelques créations graphiques et visuelles que j’ai réalisées.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {visuels.map((visuel) => (
+        {visuelsToShow.map((visuel) => (
           <div
             key={visuel.id}
             className="bg-base-200 rounded-xl shadow-lg overflow-hidden group cursor-pointer transition transform hover:scale-[1.02] hover:shadow-xl"
@@ -62,6 +72,28 @@ const Visuels = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="flex flex-col sm:flex-row justify-center gap-3 mt-8">
+        {hasMore && (
+          <button
+            type="button"
+            className="btn btn-accent gap-2"
+            onClick={loadMore}
+          >
+            Voir plus
+            <ChevronDown className="w-5 h-5" />
+          </button>
+        )}
+        {canShowLess && (
+          <button
+            type="button"
+            className="btn btn-ghost gap-2"
+            onClick={showLess}
+          >
+            Voir moins
+          </button>
+        )}
       </div>
 
       {/* Modale de visionnage en grand */}
