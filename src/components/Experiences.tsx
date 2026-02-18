@@ -42,7 +42,7 @@ const experiences = [
   },
   {
     id: 2,
-    role: "Développeur web, mobile & graphisme",
+    role: "Stage Académique & Formation en Développeur web, mobile & graphisme",
     company: "Citech Sarl",
     period: "juin 2023 - Aout 2023",
     description:
@@ -53,7 +53,7 @@ const experiences = [
     id: 3,
     role: "Stage Académique en Développeur web & mobile",
     company: "Taka Teck Innov",
-    period: "Mars 2024 - juin 2025",
+    period: "Mars 2024 - juin 2024",
     description:
       "Afin de concretiser mes connaissances en programmation, J'ai travaillé sur un projets web et mobile pour Taka Teck Innov, une entreprise Spécialisée dans la formation en Electronique et Programmation. Le projet consistait à fournir une solution pouvant permettre aux apprenants de s'initier à l'electronics et à la programmation à travers des cours en ligne et des exercies.",
     images: TakaTechInnov,
@@ -62,7 +62,7 @@ const experiences = [
     id: 4,
     role: "Formation Professionnelle en Développeur web ",
     company: "E4afrika",
-    period: " Fevrier 2024 -novembre 2024",
+    period: " Fevrier 2025 -Juillet 2025",
     description: "Apprentisage des concepts clés du développement web (back-end) avec le framework symfony.",
     images: E4afrika,
   },
@@ -70,7 +70,7 @@ const experiences = [
     id: 4,
     role: "Développeur web ",
     company: "XoboEvents",
-    period: " Fevrier 2025",
+    period: " Fevrier 2024 - Avril 2024",
     description: "Conception d'une application web de billeterie pour l'évènement Weloveya pour la gestion des tickets et packs. Cette application permettait aux utilisateurs de s'inscrire à l'évènement, de choisir leurs places et de payer leur billet en ligne.",
     images: XodoEvents_weloveya,
   },
@@ -78,7 +78,7 @@ const experiences = [
     id: 5,
     role:"Développeur web",
     company: "LePremier",
-    period: " Decembre 2025 - Fevrier 2026",
+    period: " Decembre 2025 - ....",
     description: "Developpement d'une application web pour la plateforme LePremier, une plateforme de location de voitures, d'appartements, de billets et de tickets d'évènements en Afrique de l'Ouest Francophone. J'était chargé de la refonte de la plateforme web et de l'integration de nouvelle module comme la gestion des Évènement et la gestion des tickets d'évènements.",
     images: LePremier,
   }

@@ -40,7 +40,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center shrink-0">
           <a
-            href="cv/Kenneth.pdf"
+            href="/cv/CurriculumVitae-D%27AMEIDA-kennett.pdf"
             className="btn btn-accent btn-sm"
             download
           >
@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Bouton menu mobile */}
         <div className="flex md:hidden items-center gap-2">
           <a
-            href="cv/Kenneth.pdf"
+            href="/cv/CurriculumVitae-D%27AMEIDA-kennett.pdf"
             className="btn btn-accent btn-sm"
             download
           >

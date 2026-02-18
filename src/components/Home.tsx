@@ -13,7 +13,7 @@ const Home = () => {
           Developpeur fullstack passionné ,je concois des solutions web modernes et efficaces,
            alliant performance et simplicité pour les utilisateurs.
         </p>
-        <a href="cv/Kenneth.pdf" className="btn btn-accent md:w-fit" download>
+        <a href="/cv/CurriculumVitae-D%27AMEIDA-kennett.pdf" className="btn btn-accent md:w-fit" download>
           <FileUser className="w-5 h-5" />
           Mon CV
         </a>
